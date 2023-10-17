@@ -2,7 +2,7 @@
 # Introdução a Programação (2023/2)
 # miniEP4 - Simulador do Jogo da Velha
 # Nome: Luiza Pauli de Castro
-# Matrícula: 2023200166
+# Matrícula: ----------
 ######################################################
 
 ######################################################
@@ -23,22 +23,16 @@
 #       que cada uma deve fazer e retornar.
 ######################################################
 
-
 def imprimeTabuleiro(p1, p2, p3, p4, p5, p6, p7, p8, p9):
     """
     Recebe os valores das nove posições do tabuleiro e imprime o tabuleiro
     """
-    i = 0
-    while i < 3:
-        if i == 0:
-            print(f" {p7} | {p8} | {p9} ")
-            print("---+---+---")
-        elif i == 1:
-            print(f" {p4} | {p5} | {p6} ")
-            print("---+---+---")
-        else:
-            print(f" {p1} | {p2} | {p3} ")
-        i += 1
+
+    print(f" {p7} | {p8} | {p9} ")
+    print("---+---+---")
+    print(f" {p4} | {p5} | {p6} ")
+    print("---+---+---")
+    print(f" {p1} | {p2} | {p3} ")
 
 
 
@@ -49,48 +43,28 @@ def entradaValida(p1, p2, p3, p4, p5, p6, p7, p8, p9):
     verifica se os valores são válidos, ou seja, retorna True
     se cada variável possui " " ou "x" ou "o" e False, caso contrário.
     """
-    entradaVal = True
-    i = 0
-    while i < 9:
-        if i == 0:
-            if p1 != "x" and p1 != "o" and p1 != " ":
-                entradaVal = False
-                break
-        elif i == 1:
-            if p2 != "x" and p2 != "o" and p2 != " ":
-                entradaVal = False
-                break
-        elif i == 2:
-            if p3 != "x" and p3 != "o" and p3 != " ":
-                entradaVal = False
-                break
-        elif i == 3:
-            if p4 != "x" and p4 != "o" and p4 != " ":
-                entradaVal = False
-                break
-        elif i == 4:
-            if p5 != "x" and p5 != "o" and p5 != " ":
-                entradaVal = False
-                break
-        elif i == 5:
-            if p6 != "x" and p6 != "o" and p6 != " ":
-                entradaVal = False
-                break
-        elif i == 6:
-            if p7 != "x" and p7 != "o" and p7 != " ":
 
-                entradaVal = False
-                break
-        elif i == 7:
-            if p8 != "x" and p8 != "o" and p8 != " ":
+    if p1 != "x" and p1 != "o" and p1 != " ":
+        entradaVal = False
+    elif p2 != "x" and p2 != "o" and p2 != " ":
+        entradaVal = False
+    elif p3 != "x" and p3 != "o" and p3 != " ":
+        entradaVal = False
+    elif p4 != "x" and p4 != "o" and p4 != " ":
+        entradaVal = False
+    elif p5 != "x" and p5 != "o" and p5 != " ":
+        entradaVal = False
+    elif p6 != "x" and p6 != "o" and p6 != " ":
+        entradaVal = False
+    elif p7 != "x" and p7 != "o" and p7 != " ":
+        entradaVal = False
+    elif p8 != "x" and p8 != "o" and p8 != " ":
+        entradaVal = False
+    elif p9 != "x" and p9 != "o" and p9 != " ":
+        entradaVal = False
+    else:
+        entradaVal = True
 
-                entradaVal = False
-                break
-        else:
-            if p9 != "x" and p9 != "o" and p9 != " ":
-                entradaVal = False
-                break
-        i += 1
     return entradaVal
 
 def jogadaValida(p1, p2, p3, p4, p5, p6, p7, p8, p9):
