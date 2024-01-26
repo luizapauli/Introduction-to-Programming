@@ -2,7 +2,6 @@
 # Introdução a Programação (2023/2)
 # miniEP4 - Simulador do Jogo da Velha
 # Nome: Luiza Pauli de Castro
-# Matrícula: 2023200166
 ######################################################
 
 ######################################################
