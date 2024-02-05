@@ -30,3 +30,5 @@ Water is opposite to fire and earth is opposite to air (reciprocal). When the av
   <img align="center" alt="python" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
   <img align="center" alt="Visual Studio Code" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 </div><br/>
+
+> **TO RUN:** It is recommended to use Visual Studio Code with Code Runner
