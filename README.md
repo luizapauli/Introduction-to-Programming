@@ -13,8 +13,8 @@ Features:
 * Receives payment and returns change (not fully optimized);
 * Informs if there isn't enough change to complete the purchase.
 #### EP2: PAC-MAN
-> **IN PROGRESS**
 Pac-man game, but using the BaseParaJogo module (originated from PyGame module). The objective is to program a Pac-Man-styled game without the concepts of Object-oriented programming (OOP).
+> **IN PROGRESS**
 #### mEP1: Triangle checker
 Checks if it is possible to have a triangle with the values given.
 #### mEP2: Blood donator
